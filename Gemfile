@@ -22,6 +22,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'autoprefixer-rails'
+# allows fontawesome in our file
+gem 'font-awesome-sass', '~> 5.6.1'
+# allows simple form bootstrap
+gem 'simple_form'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
